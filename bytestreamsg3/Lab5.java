@@ -25,6 +25,7 @@ public class Lab5 {
             Student std = (Student) input.readObject();
             System.out.println("ID:" + std.id);
             System.out.println("Name:" + std.name);
+            System.out.println(std);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Lab5.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
